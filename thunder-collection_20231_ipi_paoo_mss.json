@@ -1,0 +1,52 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "20231_ipi_paoo_mss",
+    "dateExported": "2023-03-29T20:51:08.908Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "cfed2bba-cb4e-438f-b1da-301f045758a7",
+            "name": "lembretes",
+            "containerId": "",
+            "created": "2023-03-29T20:22:49.807Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "52f84c55-6639-4439-ad6c-c86e324ad907",
+            "name": "observacoes",
+            "containerId": "",
+            "created": "2023-03-29T20:22:58.212Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "4c71dbf7-dc9d-4250-b1ca-92f75ed7c34e",
+            "colId": "7de5252a-e2f5-4d56-bb53-b8e221076b83",
+            "containerId": "cfed2bba-cb4e-438f-b1da-301f045758a7",
+            "name": "Obter Lembretes",
+            "url": "{{MSS_HOST}}:{{MSS_LEMBRETES_PORTA}}/lembretes",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-03-29T20:23:28.933Z",
+            "modified": "2023-03-29T20:34:37.054Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "39ee66de-54db-4ed3-9bd1-b665b95480ef",
+            "colId": "7de5252a-e2f5-4d56-bb53-b8e221076b83",
+            "containerId": "cfed2bba-cb4e-438f-b1da-301f045758a7",
+            "name": "Salvar Lembretes",
+            "url": "{{MSS_HOST}}:{{MSS_LEMBRETES_PORTA}}/lembretes",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-03-29T20:23:48.914Z",
+            "modified": "2023-03-29T20:34:41.634Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
